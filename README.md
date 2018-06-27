@@ -9,6 +9,12 @@ The feature size is large (678 count) but extremely sparse. Hence, I believe tha
 
 The code is in Jupyter notebook. There are two notebooks:
 1) Model to predict if food is a dessert: Final_project_DNNClassifier_predict_dessert.ipynb
-2) Model to predict ratin: 
+2) Model to predict rating: Final_project_DNNClassifier_predict_rating.ipynb
+
+Instructions for running the model: 
+1) Download and unzip Epicurious dataset: epi_r.csv. Save it in a folder and use path to refer to in notebook
+2) Run packages and functions in the notebook.
+3) The model can run three types of model: "wide", "deep" and "wide + deep". 
+4) Define model_type and model_dir and run test_model_accuracy(model_type, model_dir)
 
 
