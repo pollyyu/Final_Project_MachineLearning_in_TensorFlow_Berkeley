@@ -16,5 +16,6 @@ Instructions for running the model:
 2) Run packages and functions in the notebook.
 3) The model can run three types of model: "wide", "deep" and "wide + deep". 
 4) Define model_type and model_dir and run test_model_accuracy(model_type, model_dir)
+5) Go to your define model_dir in terminal and run Tensorboard: tensorboard --logdir ./
 
 
